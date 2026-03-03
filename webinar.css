@@ -26,7 +26,7 @@
 html { scroll-behavior: smooth; font-size: 16px; }
 
 body {
-  font-family: 'Merriweather', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text-light);
   background: var(--bg);
   line-height: 1.6;
@@ -103,7 +103,7 @@ a { text-decoration: none; color: inherit; }
 ul { list-style: none; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', 'Merriweather', sans-serif;
+  font-family: 'Clash Display', 'Montserrat', sans-serif;
   word-spacing: 4px;
   letter-spacing: 0.5px;
 }
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 .header-inner { display: flex; justify-content: flex-start; align-items: center; padding-left: 0; }
 .logo { display: flex; align-items: center; gap: 10px; }
 .logo-img { width: 120px; height: auto; border-radius: 12px; }
-.logo-text { font-family: 'Merriweather', 'Merriweather', sans-serif; font-size: 1.2rem; font-weight: 700; color: #fff; }
+.logo-text { font-family: 'Clash Display', 'Montserrat', sans-serif; font-size: 1.2rem; font-weight: 700; color: #fff; }
 
 /* Hero */
 .hero {
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 30px;
   margin-bottom: 28px;
   box-shadow: 0 0 20px rgba(0,82,183,0.3);
-  font-family: 'Merriweather', 'Merriweather', sans-serif;
+  font-family: 'Clash Display', 'Montserrat', sans-serif;
 }
 
 .hero h1 {
@@ -242,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 18px;
   background: var(--primary);
   color: #fff;
-  font-family: 'Merriweather', 'Merriweather', sans-serif;
+  font-family: 'Clash Display', 'Montserrat', sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
   border: none;
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   font-weight: 700;
   font-size: 1rem;
-  font-family: 'Merriweather', 'Merriweather', sans-serif;
+  font-family: 'Clash Display', 'Montserrat', sans-serif;
   border-radius: var(--radius);
   transition: all 0.3s;
   border: none;
