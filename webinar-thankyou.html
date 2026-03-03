@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Confirmed - Quantum Algo</title>
+  <link rel="icon" type="image/png" href="QA%20logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="webinar.css">
+  <style>
+    .thankyou-wrap {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .thankyou-card {
+      max-width: 600px;
+      width: 100%;
+      background: rgba(17,24,39,0.95);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px;
+      padding: 48px 36px;
+      text-align: center;
+    }
+    .thankyou-logo {
+      height: 48px;
+      margin-bottom: 24px;
+    }
+    .thankyou-icon {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    .thankyou-card h1 {
+      font-family: 'Clash Display', sans-serif;
+      font-size: 28px;
+      color: #fff;
+      margin-bottom: 8px;
+    }
+    .thankyou-card .greeting {
+      color: #0052b7;
+      font-size: 16px;
+      margin-bottom: 32px;
+    }
+    .details-box {
+      background: rgba(0,82,183,0.08);
+      border-left: 4px solid #0052b7;
+      border-radius: 8px;
+      padding: 20px 24px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    .details-box p {
+      color: #d1d5dc;
+      margin: 6px 0;
+      font-size: 15px;
+    }
+    .details-box strong {
+      color: #fff;
+    }
+    .steps-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 20px 24px;
+      text-align: left;
+      margin-bottom: 24px;
+    }
+    .steps-box h3 {
+      color: #fff;
+      font-size: 16px;
+      margin: 0 0 12px 0;
+    }
+    .steps-box p {
+      color: #9ca3af;
+      margin: 6px 0;
+      font-size: 14px;
+    }
+    .checklist-box {
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 8px;
+      padding: 20px 24px;
+      text-align: left;
+      margin-bottom: 32px;
+    }
+    .checklist-box h3 {
+      color: #fff;
+      font-size: 16px;
+      margin: 0 0 12px 0;
+    }
+    .checklist-box p {
+      color: #9ca3af;
+      margin: 6px 0;
+      font-size: 14px;
+    }
+    .back-btn {
+      display: inline-block;
+      padding: 14px 36px;
+      background: linear-gradient(135deg, #0052b7, #0070f3);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      font-size: 15px;
+      transition: transform 0.2s;
+    }
+    .back-btn:hover {
+      transform: translateY(-2px);
+    }
+    .support-text {
+      color: #6b7280;
+      font-size: 13px;
+      margin-top: 24px;
+    }
+    .support-text a {
+      color: #0052b7;
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-glow"></div>
+  <div class="thankyou-wrap">
+    <div class="thankyou-card">
+      <img src="QA%20logo.png" alt="Quantum Algo" class="thankyou-logo">
+      <div class="thankyou-icon">✅</div>
+      <h1>Payment Confirmed!</h1>
+      <p class="greeting" id="greetingText">You are registered for the Build & Sell Trading Algos Webinar</p>
+
+      <div class="details-box">
+        <p><strong>Date:</strong> Saturday, March 14 at 11:00 AM IST</p>
+        <p><strong>Duration:</strong> ~90 minutes + Q&A</p>
+        <p><strong>Format:</strong> Live Online Webinar</p>
+        <p><strong>Amount Paid:</strong> ₹299</p>
+      </div>
+
+      <div class="steps-box">
+        <h3>What Happens Next</h3>
+        <p>1. Check your email for confirmation & webinar details</p>
+        <p>2. You'll receive the meeting link 1 hour before the session</p>
+        <p>3. Join 5 minutes early to get settled</p>
+        <p>4. Bring your questions for the live Q&A</p>
+      </div>
+
+      <div class="checklist-box">
+        <h3>Prepare Before the Webinar</h3>
+        <p>- Download MetaTrader 5 (free)</p>
+        <p>- Create a free AI account (ChatGPT/Claude)</p>
+        <p>- Create a free MQL5.com account (for marketplace access)</p>
+        <p>- Use a laptop or desktop (not mobile)</p>
+        <p>- Ensure stable internet</p>
+      </div>
+
+      <a href="index.html" class="back-btn">BACK TO HOME</a>
+      <p class="support-text">Questions? Email <a href="mailto:support@quantumalgo.pro">support@quantumalgo.pro</a></p>
+    </div>
+  </div>
+
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    var name = params.get('name');
+    if (name) {
+      document.getElementById('greetingText').textContent = name + ', you are registered for the Build & Sell Trading Algos Webinar!';
+    }
+  </script>
+</body>
+</html>

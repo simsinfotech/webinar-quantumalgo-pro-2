@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Build & Sell Trading Algos on MQL5 Market Using AI - Just ₹299</title>
+  <meta name="description" content="Live Training: Learn how to build and sell trading algos on MQL5 Market using AI—a recurring revenue stream. No coding required. Just ₹299.">
+  <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+  <link rel="icon" type="image/png" href="QA%20logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="webinar.css">
+  <style>
+    .about-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 3px solid var(--primary);
+      box-shadow: 0 0 30px rgba(0,82,183,0.3);
+    }
+    @media (max-width: 768px) {
+      .about-photo { width: 100px; height: 100px; }
+    }
+    @media (max-width: 400px) {
+      .about-photo { width: 80px; height: 80px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Glow -->
+  <div class="bg-glow"></div>
+
+  <!-- Hero Section (includes header) -->
+  <section class="hero" id="top">
+    <!-- Header -->
+    <header class="header">
+      <div class="container header-inner">
+        <a href="#" class="logo">
+          <img src="QA logo.png" alt="Quantum Algo" class="logo-img">
+        </a>
+      </div>
+    </header>
+    <div class="container">
+      <span class="hero-badge">LIVE TRAINING - JUST ₹299</span>
+      <h1>How I Built a Side Income <span class="highlight">Selling Trading Algos</span> on MQL5 Market Using AI</h1>
+      <p class="hero-sub">And How You Can Build & Sell Your First Algo — Even With Zero Coding Experience</p>
+
+      <!-- Registration Form -->
+      <div class="reg-card" id="registration-form">
+        <h2>Register for Live Training - Just ₹299</h2>
+        <div class="webinar-details">
+          📅 Next Session: Saturday, March 14 at 11:00 AM IST<br>
+          ⏱️ Duration: ~90 minutes + Q&A<br>
+          💰 Investment: Just ₹299 (Worth ₹4,999)
+        </div>
+        <form id="webinarForm" onsubmit="return handleSubmit(event)">
+          <div class="form-group">
+            <label>First Name *</label>
+            <input type="text" name="first_name" placeholder="Enter your first name" required autocomplete="given-name">
+          </div>
+          <div class="form-group">
+            <label>Email Address *</label>
+            <input type="email" name="email" placeholder="your@email.com" required autocomplete="email">
+          </div>
+          <div class="form-group">
+            <label>WhatsApp Number *</label>
+            <input type="tel" name="phone" placeholder="+91 98765 43210" required autocomplete="tel">
+            <span class="helper">We'll send webinar link here</span>
+          </div>
+          <div class="form-group">
+            <label>Experience Level (Optional)</label>
+            <select name="experience">
+              <option value="">Select...</option>
+              <option value="beginner">Complete Beginner</option>
+              <option value="some">Some Experience (&lt; 1 year)</option>
+              <option value="intermediate">Intermediate (1-3 years)</option>
+              <option value="advanced">Advanced (3+ years)</option>
+            </select>
+          </div>
+          <button type="submit" class="cta-btn">REGISTER NOW - JUST ₹299 &rarr;</button>
+        </form>
+        <p class="privacy-note">🔒 Secure payment via Razorpay. Your information is safe.</p>
+        <div class="social-proof-form">
+          ✓ Only <strong>200 spots</strong> available per session
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proof Section -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <div class="proof">
+        <div class="proof-image">
+          <div style="padding:20px;text-align:center;">
+            <div style="font-size:2.5rem;margin-bottom:12px;">💰</div>
+            <div style="font-size:1.6rem;font-weight:700;color:#fff;margin-bottom:8px;">MQL5 Market Sales</div>
+            <div style="font-size:0.9rem;color:var(--text-muted);line-height:1.8;">
+              Real earnings from selling Expert Advisors on the MQL5 Marketplace — a growing digital product business.
+            </div>
+          </div>
+        </div>
+        <div class="proof-text">
+          <h2>People Are Earning Real Money Selling Algos on MQL5 Market.</h2>
+          <p>The MQL5 Market has thousands of buyers looking for quality Expert Advisors every single day.<br><br>You don't need to be a pro trader. You don't need to risk your own capital.<br><br>You just need to know how to build sell-ready EAs using AI — and I'll show you exactly how in this live training.</p>
+          <a href="#registration-form" class="cta-btn-inline">SAVE MY SPOT - JUST ₹299</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- What You'll Discover -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">In This Live Training, You'll Discover:</h2>
+      <div class="benefits-list">
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>How the MQL5 Market Works & Why It's a Goldmine for Algo Sellers</h3>
+            <p>(Thousands of traders are buying EAs every day — and the supply is low)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>The AI Prompt Method to Generate Sell-Ready Expert Advisors</h3>
+            <p>(Copy my exact prompts and watch AI build your EA in minutes)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>Live Build: Watch Me Create a Marketplace-Ready EA in Under 20 Minutes</h3>
+            <p>(From prompt to published product — all while you watch)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>How to Price, Package & List Your Algo for Maximum Sales</h3>
+            <p>(The pricing sweet spot that converts browsers into buyers)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>The Secret to Getting 5-Star Reviews & Repeat Customers</h3>
+            <p>(Why some sellers make 10x more than others with similar products)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>How Students Are Making ₹15K-50K/Month Selling Algos (Not Trading)</h3>
+            <p>(Real case studies from people who started from zero)</p>
+          </div>
+        </div>
+        <div class="benefit-item">
+          <span class="benefit-icon">✅</span>
+          <div class="benefit-content">
+            <h3>Q&A: Get All Your Questions Answered Live</h3>
+            <p>(Nothing is off-limits — bring your toughest questions)</p>
+          </div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:36px;">
+        <a href="#registration-form" class="cta-btn-inline">YES, I WANT IN - JUST ₹299</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Who Is This For -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <h2 class="section-title">This Training Is For You If:</h2>
+      <div class="who-grid">
+        <div class="who-col for">
+          <h3>Perfect For You If:</h3>
+          <ul>
+            <li>You want a side income selling digital products</li>
+            <li>You're a developer looking for a profitable niche</li>
+            <li>You're a trader who wants to monetize your strategy knowledge</li>
+            <li>You're a freelancer wanting to sell products (not just time)</li>
+            <li>You're a student looking for income without a 9-to-5</li>
+            <li>You're curious about AI but don't know how to monetize it</li>
+            <li>You want recurring revenue from algo marketplace sales</li>
+          </ul>
+        </div>
+        <div class="who-col not-for">
+          <h3>This Is NOT For:</h3>
+          <ul>
+            <li>People looking for get-rich-quick schemes</li>
+            <li>Those unwilling to learn (this takes effort)</li>
+            <li>People who won't implement what they learn</li>
+          </ul>
+        </div>
+      </div>
+      <div style="text-align:center;">
+        <a href="#registration-form" class="cta-btn-inline">SAVE MY SPOT NOW</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">What People Are Saying:</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+          <blockquote>"Sold my first EA on MQL5 Market within 2 weeks of the training. Already made back 10x my investment."</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RK</div>
+            <div>
+              <div class="testimonial-name">Rahul K.</div>
+              <div class="testimonial-loc">Pune</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+          <blockquote>"I had zero coding experience. Now I have 3 EAs listed on the marketplace and earning passive income every month."</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">PS</div>
+            <div>
+              <div class="testimonial-name">Priya S.</div>
+              <div class="testimonial-loc">Hyderabad</div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="testimonial-stars">&#11088;&#11088;&#11088;&#11088;&#11088;</div>
+          <blockquote>"The marketplace selling strategy was a game-changer. Earning ₹25K/month now just from algo sales. No trading risk."</blockquote>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">DM</div>
+            <div>
+              <div class="testimonial-name">Deepak M.</div>
+              <div class="testimonial-loc">Chennai</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="rating-badge">⭐⭐⭐⭐⭐ 4.9/5 Rating (847 Webinar Attendees)</div>
+      <div style="text-align:center; margin-top:24px;">
+        <a href="#registration-form" class="cta-btn-inline">REGISTER NOW - JUST ₹299</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me -->
+  <section class="section section-alt fade-in">
+    <div class="container">
+      <h2 class="section-title">Hi, I'm Shamiq Hussain</h2>
+      <div class="about-card">
+        <img src="photo_2026-03-02%2017.37.41.jpeg" alt="Shamiq Hussain" class="about-photo">
+        <div class="about-info">
+          <h3>Shamiq Hussain</h3>
+          <p>I've built and sold 100+ Expert Advisors on MQL5 Market and other algo marketplaces using AI.</p>
+          <p>I've helped students go from zero coding knowledge to earning recurring income by selling algos — not by trading, but by building and selling digital products to traders worldwide.</p>
+          <p>My method is simple: use AI to build quality EAs, package them properly, and list them where thousands of buyers are already looking.</p>
+          <p><strong>In this training, I'll show you the exact process.</strong></p>
+          <div style="margin-top:16px;">
+            <a href="#registration-form" class="cta-btn-inline">YES, SAVE MY SPOT</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section fade-in">
+    <div class="container">
+      <h2 class="section-title">Quick Questions:</h2>
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-q">Why is it just ₹299? <span class="icon">+</span></button>
+          <div class="faq-a"><p>₹299 ensures only serious learners join. This training is worth ₹4,999+ but we've priced it at ₹299 so everyone can access it. No hidden costs.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Which platforms can I sell algos on? <span class="icon">+</span></button>
+          <div class="faq-a"><p>MQL5 Market is the biggest — it's built into MetaTrader which millions of traders use. You can also sell on cTrader, freelance platforms, and even your own website. I'll cover the best strategies for each.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do I need coding experience? <span class="icon">+</span></button>
+          <div class="faq-a"><p>Absolutely not. 85% of attendees have ZERO coding background. AI does the heavy lifting — you just need to know the right prompts and how to package the output.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How much can I realistically earn? <span class="icon">+</span></button>
+          <div class="faq-a"><p>It depends on effort and quality. Students typically start earning ₹5K-15K/month within the first 2-3 months. Some experienced sellers earn ₹50K+ per month. The key is listing multiple quality EAs.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Isn't the market too competitive? <span class="icon">+</span></button>
+          <div class="faq-a"><p>Actually, no. Most EAs on the market are low quality. If you build well-tested, well-documented EAs (which AI helps with), you stand out easily. Demand far exceeds quality supply.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">How do I price my algos? <span class="icon">+</span></button>
+          <div class="faq-a"><p>I'll cover exact pricing strategies in the training. Most successful EAs sell between $30-$200, with some premium ones at $500+. I'll show you the sweet spot for maximum sales.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Will this be recorded? <span class="icon">+</span></button>
+          <div class="faq-a"><p>Yes, but the replay is only available for 24 hours. Live attendees get priority for bonuses.</p></div>
+        </div>
+        <div class="faq-item">
+          <button class="faq-q">Do I need to be a profitable trader? <span class="icon">+</span></button>
+          <div class="faq-a"><p>No! That's the beauty of this approach. You're selling tools to traders — you don't need to trade yourself. Many successful algo sellers don't actively trade at all.</p></div>
+        </div>
+      </div>
+      <div style="text-align:center; margin-top:32px;">
+        <a href="#registration-form" class="cta-btn-inline">REGISTER NOW - JUST ₹299</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Urgency Section -->
+  <section class="urgency-section fade-in">
+    <div class="container">
+      <h2>⚠️ WARNING: Spots Fill Up Fast</h2>
+      <p>We limit each session to 200 attendees to ensure quality interaction and Q&A time.</p>
+      <div class="progress-bar-wrap">
+        <div class="progress-label">Current Session Status:</div>
+        <div class="progress-bar"><div class="progress-fill"></div></div>
+        <div class="progress-text" id="spotsText">Loading...</div>
+      </div>
+      <p>If this session fills up, next available slot is 2 weeks away.<br>Don't miss out.</p>
+      <a href="#registration-form" class="cta-btn-inline pulse-btn" style="margin-top:16px;">REGISTER NOW BEFORE SPOTS RUN OUT</a>
+      <div class="urgency-footer">Just ₹299 &bull; Secure Payment &bull; Instant Confirmation</div>
+    </div>
+  </section>
+
+  <!-- Closing -->
+  <section class="closing">
+    <div class="container">
+      <p>See you on the training,<br><strong>Shamiq Hussain</strong></p>
+      <p class="ps">P.S. - Bring your questions. Nothing is off-limits in the Q&A session.</p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div style="text-align:center;margin-bottom:12px;">
+      <img src="QA%20logo.png" alt="Quantum Algo" style="height:48px;max-width:200px;display:block;margin:0 auto;">
+    </div>
+    <div class="footer-brand">QUANTUM ALGO</div>
+    <div style="color:#6b7280;font-size:12px;margin-bottom:12px;">Powered by MarketScore</div>
+    <div class="footer-links">
+      <a href="#" onclick="document.getElementById('privacyModal').style.display='flex';return false;">Privacy Policy</a>
+      <a href="#" onclick="document.getElementById('termsModal').style.display='flex';return false;">Terms & Conditions</a>
+    </div>
+    <div class="footer-copy">&copy; 2026 Quantum Algo. All rights reserved.</div>
+    <div class="footer-disclaimer">DISCLAIMER: Selling trading algorithms involves effort and market dynamics. Individual results may vary. We provide education, not guaranteed income.</div>
+  </footer>
+
+  <!-- Social Proof Toast -->
+  <div class="toast" id="socialToast">
+    <span class="toast-icon">👤</span>
+    <div>
+      <div class="toast-text" id="toastText"><strong>Someone</strong> just registered</div>
+      <span class="toast-time">Just now</span>
+    </div>
+  </div>
+
+  <!-- Privacy Policy Modal -->
+  <div id="privacyModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;">
+    <div style="background:#111;border:1px solid #222;border-radius:12px;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;padding:40px;position:relative;color:#d1d5dc;font-size:15px;line-height:1.8;">
+      <button onclick="document.getElementById('privacyModal').style.display='none'" style="position:sticky;top:0;float:right;background:#222;border:1px solid #333;color:#fff;font-size:20px;cursor:pointer;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;z-index:1;">&times;</button>
+      <h2 style="color:#fff;font-size:24px;margin-bottom:8px;">Privacy Policy</h2>
+      <p style="color:#99a1af;font-size:13px;margin-bottom:32px;">Last updated: March 2, 2026</p>
+      <p>Quantum Algo ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information when you visit our website, register for our webinars, or use our services.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">1. Information We Collect</h3>
+      <p>We collect the following personal information when you register for our webinars or services:</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Name</strong> - Your first name to personalize our communications</li>
+        <li><strong>Email Address</strong> - To send webinar details, confirmation emails, and related updates</li>
+        <li><strong>WhatsApp Number</strong> - To send webinar links and important reminders</li>
+        <li><strong>Experience Level</strong> - To tailor our training content to your needs</li>
+      </ul>
+      <p>We also automatically collect certain technical information including your IP address, browser type, and device information through standard web server logs.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">2. How We Use Your Information</h3>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li>To register you for our webinars and live training sessions</li>
+        <li>To send confirmation emails with webinar meeting links and details</li>
+        <li>To send reminders about upcoming sessions via email or WhatsApp</li>
+        <li>To communicate updates about our courses, workshops, and educational content</li>
+        <li>To improve our services and tailor content to our audience</li>
+        <li>To respond to your inquiries and provide customer support</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">3. Data Storage and Security</h3>
+      <p>Your registration data is stored securely in Google Sheets and processed through Google Apps Script. We use industry-standard security measures to protect your personal information from unauthorized access, alteration, or destruction.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">4. Third-Party Services</h3>
+      <p>We use the following third-party services:</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Google Workspace</strong> - For data storage, email sending, and webinar management</li>
+        <li><strong>Google Meet</strong> - For hosting live webinar sessions</li>
+        <li><strong>Razorpay</strong> - For secure payment processing</li>
+        <li><strong>Vercel</strong> - For website hosting</li>
+      </ul>
+      <p>We do not sell, trade, or rent your personal information to any third parties.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">5. Email Communications</h3>
+      <p>By registering for our webinar, you consent to receiving webinar confirmation emails, reminders, and follow-up emails with resources. You can opt out of promotional emails at any time by replying with "UNSUBSCRIBE" or contacting us directly.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">6. Your Rights</h3>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li><strong>Access</strong> - Request a copy of the personal data we hold about you</li>
+        <li><strong>Correction</strong> - Request correction of inaccurate personal data</li>
+        <li><strong>Deletion</strong> - Request deletion of your personal data from our records</li>
+        <li><strong>Opt-out</strong> - Unsubscribe from promotional communications at any time</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">7. Cookies</h3>
+      <p>Our website may use minimal cookies for basic functionality. We do not use tracking cookies or third-party advertising cookies.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">8. Children's Privacy</h3>
+      <p>Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">9. Changes to This Policy</h3>
+      <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">10. Contact Us</h3>
+      <p><strong>Company:</strong> Quantum Algo<br><strong>Founder:</strong> Shamiq Hussain<br><strong>Email:</strong> support@quantumalgo.pro</p>
+    </div>
+  </div>
+
+  <!-- Terms & Conditions Modal -->
+  <div id="termsModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);z-index:9999;justify-content:center;align-items:center;padding:20px;">
+    <div style="background:#111;border:1px solid #222;border-radius:12px;max-width:800px;width:100%;max-height:90vh;overflow-y:auto;padding:40px;position:relative;color:#d1d5dc;font-size:15px;line-height:1.8;">
+      <button onclick="document.getElementById('termsModal').style.display='none'" style="position:sticky;top:0;float:right;background:#222;border:1px solid #333;color:#fff;font-size:20px;cursor:pointer;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;z-index:1;">&times;</button>
+      <h2 style="color:#fff;font-size:24px;margin-bottom:8px;">Terms &amp; Conditions</h2>
+      <p style="color:#99a1af;font-size:13px;margin-bottom:32px;">Last updated: March 2, 2026</p>
+      <p>Welcome to Quantum Algo. By accessing our website, registering for our webinars, or using any of our services, you agree to be bound by these Terms &amp; Conditions.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">1. About Our Services</h3>
+      <p>Quantum Algo provides educational content related to algorithmic trading and AI-powered trading tools, including paid live webinar training sessions, online courses and workshops, and educational resources about building and selling Expert Advisors (EAs) using AI. Our services are strictly educational in nature. We do not provide investment advice, portfolio management, or financial advisory services.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">2. Eligibility</h3>
+      <p>By using our services, you confirm that you are at least 18 years of age, have the legal capacity to enter into these terms, and will provide accurate and truthful information when registering.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">3. Webinar Registration &amp; Payment</h3>
+      <p>When you register for our paid webinar, you agree to provide accurate personal information, complete payment of ₹299 via Razorpay, receive confirmation emails and reminders, not share the meeting link with unregistered individuals, and conduct yourself respectfully during live sessions.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">4. Intellectual Property</h3>
+      <p>All content provided through our webinars, courses, and website is the intellectual property of Quantum Algo and Shamiq Hussain. You may not record, reproduce, redistribute, resell, or claim our content as your own.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">5. Earnings &amp; Income Disclaimer</h3>
+      <p><strong>IMPORTANT:</strong> Selling trading algorithms on marketplaces involves effort, market dynamics, and competition. Individual results vary significantly.</p>
+      <ul style="padding-left:24px;margin-bottom:12px;">
+        <li>We do NOT guarantee any specific income or sales figures</li>
+        <li>Earnings examples mentioned are for illustrative purposes only</li>
+        <li>Your results depend on effort, quality of work, and market conditions</li>
+        <li>Past student results do NOT guarantee your future earnings</li>
+        <li>This is education — not a guaranteed income opportunity</li>
+      </ul>
+      <h3 style="color:#fff;margin:28px 0 10px;">6. No Guarantees</h3>
+      <p>We make no guarantees regarding specific financial outcomes, sales of any trading algorithm, accuracy of information, or uninterrupted access to our services. Results vary based on individual effort, market conditions, and many other factors.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">7. Paid Services &amp; Refund Policy</h3>
+      <p>For paid webinars and courses: all fees are clearly stated before purchase. Refund requests must be made within 7 days of purchase. Refunds are not available once you have attended the live session or accessed more than 30% of any course content.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">8. User Conduct</h3>
+      <p>You agree not to provide false information, disrupt sessions, attempt unauthorized access, use our services for illegal purposes, or harass other participants or our team.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">9. Limitation of Liability</h3>
+      <p>To the fullest extent permitted by law, Quantum Algo shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including loss of profits, data, or trading capital. Our total liability shall not exceed the amount you paid us in the 12 months preceding the claim, or INR 5,000, whichever is less.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">10. Governing Law</h3>
+      <p>These Terms are governed by the laws of India. Any disputes shall be subject to the exclusive jurisdiction of the courts in India.</p>
+      <h3 style="color:#fff;margin:28px 0 10px;">11. Contact Us</h3>
+      <p><strong>Company:</strong> Quantum Algo<br><strong>Founder:</strong> Shamiq Hussain<br><strong>Email:</strong> support@quantumalgo.pro</p>
+    </div>
+  </div>
+
+  <script>
+    // FAQ Accordion
+    document.querySelectorAll('.faq-q').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const item = btn.parentElement;
+        document.querySelectorAll('.faq-item').forEach(i => { if (i !== item) i.classList.remove('active'); });
+        item.classList.toggle('active');
+      });
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); } });
+    }, { threshold: 0.1 });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ==============================
+    // RAZORPAY PAYMENT CONFIGURATION
+    // ==============================
+    var RAZORPAY_KEY_ID = 'rzp_live_SKKgX5sZvc4yIc';
+    var WEBINAR_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbwkOgOEbOdNuC1ohdt6gSokLCcW0fEPh_cLRSRBuG76sHWBd43BIh_7d_Rd1rcRZCv_/exec';
+
+    function showFormToast(message, isSuccess) {
+      var toast = document.getElementById('socialToast');
+      var textEl = document.getElementById('toastText');
+      var timeEl = document.querySelector('.toast-time');
+      var iconEl = document.querySelector('.toast-icon');
+      iconEl.textContent = isSuccess ? '✅' : '❌';
+      textEl.innerHTML = '<strong>' + message + '</strong>';
+      timeEl.textContent = 'Just now';
+      toast.classList.add('show');
+      setTimeout(function() { toast.classList.remove('show'); }, 6000);
+    }
+
+    function handleSubmit(e) {
+      e.preventDefault();
+      var form = document.getElementById('webinarForm');
+      var btn = form.querySelector('button[type="submit"]');
+      var firstName = form.first_name.value.trim();
+      var email = form.email.value.trim();
+      var phone = form.phone.value.trim();
+      var experience = form.experience.value;
+
+      // Validation
+      if (!firstName || !email || !phone) {
+        showFormToast('Please fill in all required fields.', false);
+        return false;
+      }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+        showFormToast('Please enter a valid email address.', false);
+        return false;
+      }
+
+      var originalText = btn.innerHTML;
+      btn.innerHTML = 'Creating order...';
+      btn.disabled = true;
+      btn.style.opacity = '0.7';
+
+      // Step 1: Create Razorpay order via Apps Script
+      fetch(WEBINAR_SCRIPT_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify({
+          action: 'create_order',
+          name: firstName,
+          email: email,
+          phone: phone,
+          experience: experience
+        })
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(data) {
+        if (!data.order_id) {
+          throw new Error(data.error || 'Order creation failed');
+        }
+
+        // Step 2: Open Razorpay checkout
+        btn.innerHTML = 'Processing...';
+        var options = {
+          key: RAZORPAY_KEY_ID,
+          amount: data.amount,
+          currency: 'INR',
+          name: 'Quantum Algo',
+          description: 'Build & Sell Trading Algos Webinar',
+          order_id: data.order_id,
+          prefill: { name: firstName, email: email, contact: phone },
+          theme: { color: '#0052b7' },
+          handler: function(response) {
+            // Step 3: Verify payment
+            btn.innerHTML = 'Verifying payment...';
+            fetch(WEBINAR_SCRIPT_URL, {
+              method: 'POST',
+              headers: { 'Content-Type': 'text/plain' },
+              body: JSON.stringify({
+                action: 'verify_payment',
+                name: firstName,
+                email: email,
+                phone: phone,
+                experience: experience,
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_signature: response.razorpay_signature
+              })
+            })
+            .then(function(r) { return r.json(); })
+            .then(function(result) {
+              if (result.success) {
+                window.location.href = 'webinar-thankyou.html?name=' + encodeURIComponent(firstName);
+              } else {
+                showFormToast('Verification failed. Contact support@quantumalgo.pro', false);
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                btn.style.opacity = '1';
+              }
+            })
+            .catch(function() {
+              showFormToast('Verification error. Contact support@quantumalgo.pro', false);
+              btn.innerHTML = originalText;
+              btn.disabled = false;
+              btn.style.opacity = '1';
+            });
+          },
+          modal: {
+            ondismiss: function() {
+              btn.innerHTML = originalText;
+              btn.disabled = false;
+              btn.style.opacity = '1';
+            }
+          }
+        };
+        var rzp = new Razorpay(options);
+        rzp.open();
+      })
+      .catch(function(err) {
+        showFormToast('Order creation failed. Please try again.', false);
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+        btn.style.opacity = '1';
+      });
+
+      return false;
+    }
+
+    // ── Live Spots Counter ──
+    function updateSpots() {
+      var url = WEBINAR_SCRIPT_URL + '?action=count';
+      fetch(url)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var count = data.count || 0;
+          var total = 200;
+          var filled = count;
+          document.getElementById('spotsText').textContent = filled + ' / ' + total + ' Spots Filled';
+          var pct = Math.min((filled / total) * 100, 100);
+          document.querySelector('.progress-fill').style.width = pct + '%';
+        })
+        .catch(function() {
+          document.getElementById('spotsText').textContent = '127 / 200 Spots Filled';
+        });
+    }
+    updateSpots();
+  </script>
+</body>
+</html>
